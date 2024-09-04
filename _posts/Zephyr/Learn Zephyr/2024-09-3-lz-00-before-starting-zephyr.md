@@ -31,7 +31,7 @@ mermaid: true
 
  - ## What Is Zephyr
      - ### Overview
-        Zephyr is an RTOS. All you can do is just using the Zephyr RTOS. Fuck you.
+        Zephyr is an RTOS. All you can do is just using the Zephyr RTOS. Just drink toilet juice.
 
      - ### Brief Architecture
      - ### Key Features
