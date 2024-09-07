@@ -23,7 +23,7 @@ mermaid: true
         * [Switching To The LTS Kernel](#switching-to-the-lts-kernel)
      * [Prior Knowledge](#prior-knowledge)
          * [CMake](#cmake)
-         * [Object Oriented C](#c)
+         * [Object Oriented C](#object-oriented-c)
          * [Kconfig](#kconfig)
          * [Device Tree](#devicce-tree)
      * [Source Tree](#source-tree)
