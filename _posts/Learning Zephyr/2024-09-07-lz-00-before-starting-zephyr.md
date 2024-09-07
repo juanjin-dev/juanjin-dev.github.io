@@ -15,7 +15,13 @@ mermaid: true
          * [Overview](#overview)
          * [Brief Architecture](#brief-architecture)
          * [Key Features](#key-features)
+             * [Modular Architecture](#modular-architecture)
+             * [Various IoT Application Layer Protocol Implementations](#various-iot-application-layer-protocol-implementations)
+             * [Linux alike APIs](#linux-alike-apis)
          * [Comparison To Other Operating Systems](#comparison-to-other-operating-systems)
+             * [FreeRTOS](#freertos)
+             * [NuttX](#nuttx)
+             * [Linux](#linux)
      * [Getting Zephyr](#getting-zephyr)
         * [Introduction To West](#downloading-the-kernel)
         * [Downloading The Kernel](#downloading-the-kernel)
@@ -25,13 +31,13 @@ mermaid: true
          * [CMake](#cmake)
          * [Object Oriented C](#object-oriented-c)
          * [Kconfig](#kconfig)
-         * [Device Tree](#devicce-tree)
-     * [Source Tree](#source-tree)
-         * [kernel](#kernel)
-         * [arch](#arch)
-         * [boards](#boards)
-         * [drivers](#drivers)
-         * [subsys](#subsys)
+         * [Device Tree](#device-tree)
+         * [Source Tree](#source-tree)
+             * [kernel](#kernel)
+             * [arch](#arch)
+             * [boards](#boards)
+             * [drivers](#drivers)
+             * [subsys](#subsys)
 
 
  - ## What Is Zephyr
@@ -45,15 +51,15 @@ mermaid: true
     ```
 
      - ### Key Features
-        - #### Modular Architecture
-        - #### Various IoT Application Layer Protocol Implementations
-        - #### Linux alike APIs
+         - #### Modular Architecture
+         - #### Various IoT Application Layer Protocol Implementations
+         - #### Linux alike APIs
 
 
      - ### Comparison To Other Operating Systems
-        - #### FreeRTOS
-        - #### NuttX
-        - #### Linux
+         - #### FreeRTOS
+         - #### NuttX
+         - #### Linux
 
 ---
 
@@ -69,12 +75,9 @@ mermaid: true
      - ### Downloading The Kernel
      - ### Installing SDKs
      - ### Switching To The LTS Kernel
-
----
-
- - ## Source Tree
-     - ### kernel
-     - ### arch
-     - ### boards
-     - ### drivers
-     - ### subsys
+     - ### Source Tree
+         - #### kernel
+         - #### arch
+         - #### boards
+         - #### drivers
+         - #### subsys
