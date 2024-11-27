@@ -12,7 +12,7 @@ mermaid: true
 
 > Hey, I'm writing a post for the first time in here. This series posts would have a lot of misinformation, maybe. Because I'm still learning Zephyr too. But I thought my thoughts about prerequisites for beginning Zephyr would help you for those who have never used the modern embedded tools even OpenOCD. If you see something wrong, give me feedback.
 
-> You may have different development environment. I'm using [Ubuntu 24.04](https://ubuntu.com/download/desktop), [Visual Studio Code](https://code.visualstudio.com) and Zephyr 3.7 LTS. In addition, I'll use [this](https://stm32-base.org/boards/STM32F411CEU6-WeAct-Black-Pill-V2.0.html) board for practice.
+> You may have different development environment. I'm using [Ubuntu 24.04](https://ubuntu.com/download/desktop), [Visual Studio Code](https://code.visualstudio.com) and **Zephyr 3.7 LTS**. In addition, I'll use [this](https://stm32-base.org/boards/STM32F411CEU6-WeAct-Black-Pill-V2.0.html) board for practice.
 
 ---
 
@@ -134,6 +134,16 @@ Device Tree language is a hardware description language. It was in the Linux ker
 
 3. **Building and Debugging**
 
+
+---
+
+## Conclusion
+    
+Have no words to say. Let's keep studying hard. Thank you for reading.
+
+---
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ## Appendix - Creating your own host application project with CMake
 I dare to assume that you may sometimes have to work on applications in C/C++. So I'll let you know how to create a CMake project from scratch.
 
@@ -160,7 +170,7 @@ I dare to assume that you may sometimes have to work on applications in C/C++. S
 
 2. **Editing the root CMakeLists.txt file**
 
-    > my-cmake-project/CMakeLists.txt
+    > **my-cmake-project/CMakeLists.txt**
 
     ```cmake
     cmake_minimum_required(VERSION 3.25 FATAL_ERROR)
@@ -193,7 +203,7 @@ I dare to assume that you may sometimes have to work on applications in C/C++. S
 
 4. **Completing the application source**
 
-    > my-cmake-project/CMakeLists.txt
+    > **my-cmake-project/CMakeLists.txt**
 
     ```cmake
     cmake_minimum_required(VERSION 3.25 FATAL_ERROR)
@@ -208,14 +218,14 @@ I dare to assume that you may sometimes have to work on applications in C/C++. S
     add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/src)
     ```
 
-    > my-cmake-project/src/CMakeLists.txt
+    > **my-cmake-project/src/CMakeLists.txt**
 
     ```cmake
     set(MY_APPLICATION_SOURCES main.c)
     add_executable(my-application ${MY_APPLICATION_SOURCES})
     ```
 
-    > my-cmake-project/src/main.c
+    > **my-cmake-project/src/main.c**
 
     ```c
     #include <stdio.h>
@@ -235,9 +245,3 @@ I dare to assume that you may sometimes have to work on applications in C/C++. S
     # [1/2] Building C object src/CMakeFiles/my-application.dir/main.c.o
     # [2/2] Linking C executable src/my-application
     ```
-
----
-
-## Conclusion
-    
-Have no words to say. Thank you for reading.

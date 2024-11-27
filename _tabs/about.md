@@ -26,9 +26,9 @@ int main(int argc, char** argv) {
 ```
 
 
-Hey, I'm [Jin](https://www.linkedin.com/in/jin-jaehwan-598a50225) from Korea(In which?). Majored [MIS](https://www.coursera.org/articles/mis) and studied web development mostly in uni, but started my career in the IoT field. However It's always interesting researching IoT especially operating systems and data communications ~~since these things always give me bipolar moods, extreme depression or its opposite(?)~~. So please pay much attention to this field.
+Hey, I'm [Jin](https://www.linkedin.com/in/jin-jaehwan-598a50225), Majored BA(Management information technology, Fuck you) from Korea(In which?). Majored [MIS](https://www.coursera.org/articles/mis) and studied web development mostly in uni, but started my career in the IoT field. However It's always interesting researching IoT especially operating systems and data communications ~~since these things always give me bipolar moods, extreme depression or its opposite(?)~~. So please pay much attention to this field.
 
-I love listening to music. My fav music genre is currently [Djent](https://en.wikipedia.org/wiki/List_of_djent_bands). Do you guys do? If so let us follow each other on [Spotify](https://open.spotify.com/user/is76c8kst7b1usrs06auauqkb?si=1fec708fcaa84ba7). By the by I have electric guitars and they look really cool. I would like to post some articles about them if I have a chance.
+I love listening to music. My fav music genre is currently [Djent](https://en.wikipedia.org/wiki/List_of_djent_bands). Are we the same? If so let us follow each other on [Spotify](https://open.spotify.com/user/is76c8kst7b1usrs06auauqkb?si=1fec708fcaa84ba7). By the by I have electric guitars and they look really cool. I would like to post some articles about them if I have a chance.
 
 ### Things I can deal with
 
