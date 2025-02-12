@@ -8,27 +8,23 @@ order: 4
 {: .prompt-tip } -->
 
 <!-- ## About Me -->
+![dark mode only](/assets/img/etc/my-transparent-avatar-dark.png){: .dark .w-50 }
+![light mode only](/assets/img/etc/my-transparent-avatar-light.png){: .light .w-50 }
 
-<img src="/assets/img/etc/my-transparent-avatar.png" alt="jkull" style="width:70%; height:70%; margin-left:auto; margin-right:auto;"/>
-<!-- ![image](/assets/img/etc/my-transparent-avatar.png) -->
-
-## Jin, The C++ Appreciator
+## Juan Jin
 
 
 ```c++
 import std.core;
 
 int main(int argc, char** argv) {
-    std::print("GNU, please hurry up supporting C++20 modules");
+    std::println("GNU, Hurry up supporting complete C++20 modules");
 
     return 1;
 }
 ```
 
-
-Hey, I'm [Jin](https://www.linkedin.com/in/jin-jaehwan-598a50225), Majored BA(Management information technology, Fuck you) from Korea(In which?). Majored [MIS](https://www.coursera.org/articles/mis) and studied web development mostly in uni, but started my career in the IoT field. However It's always interesting researching IoT especially operating systems and data communications ~~since these things always give me bipolar moods, extreme depression or its opposite(?)~~. So please pay much attention to this field.
-
-I love listening to music. My fav music genre is currently [Djent](https://en.wikipedia.org/wiki/List_of_djent_bands). Are we the same? If so let us follow each other on [Spotify](https://open.spotify.com/user/is76c8kst7b1usrs06auauqkb?si=1fec708fcaa84ba7). By the by I have electric guitars and they look really cool. I would like to post some articles about them if I have a chance.
+Hey, I'm [Jin](https://www.linkedin.com/in/jin-jaehwan-598a50225) from Republic of Korea.
 
 ### Things I can deal with
 
@@ -52,6 +48,14 @@ I love listening to music. My fav music genre is currently [Djent](https://en.wi
  - WPF
  - AvaloniaUI
 
+### Personal projects
+ - [Black Magic](https://github.com/juanjin-dev/black_magic) - Researching C macro metaprogramming
+
+### Open source projects
+ - [Net for Dumbass](https://github.com/pengasper/net-for-dumbass) - A package of firmware and device drivers for both Embedded Linux and Zephyr to provide wireless network, inspired by the ESP-Hosted-NG project.
+ - [zpmgr](https://github.com/pengasper/zpmgr) - Zephyr project management CLI tool.
+ - [Datasheets and Manuals](https://github.com/pengasper/datasheets-and-manuals) - A list of interesting datasheets and manuals.
+
 ### History
 
  - #### Elcomtech (2019-Jan ~ 2020-Sep)
@@ -63,13 +67,11 @@ I love listening to music. My fav music genre is currently [Djent](https://en.wi
      - BlockChain energy trading research project (Node.js, Solidity)
 
  - #### Hanbaeck Electronics (2020-Sep ~ 2021-Mar)
-
      - IoT educational kits development (Python, C/C++, MicroPython, Linux)
      - Blockchain educational kits development (Linux)
      - Soda Linux maintainance
 
  - #### People-i (2021-Mar ~ 2021-Oct)
-
      - XXX-X System signal demodulation network middleware (C/C++, Boost)
      - XXX-X System equipment status management middleware (C/C++, Boost)
      - XXX-Y System GIS (C#/WPF, MIL-STD-XXX)
