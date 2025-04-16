@@ -58,38 +58,37 @@ Hey, I'm [Jin](https://www.linkedin.com/in/jin-jaehwan-598a50225) from Republic 
 
 ### History
 
- - #### Elcomtech (2019-Jan ~ 2020-Sep)
-
-     - KEPCO UAV autonomous system (Python, ROS, Nvidia TensorRT, PX4, OpenCV)
-     - Hanssem Smart home security integration system gateway (Android, C/C++, TFLite, Python, Termux)
-     - Hanssem smart home device control gateway device node (MXChip RTOS, MQTT, OTA)
-     - Elcomtech IoT service middleware, HTTP server (Express.js, Angular, MySQL, AWS EC2)
-     - BlockChain energy trading research project (Node.js, Solidity)
-
- - #### Hanbaeck Electronics (2020-Sep ~ 2021-Mar)
-     - IoT educational kits development (Python, C/C++, MicroPython, Linux)
-     - Blockchain educational kits development (Linux)
-     - Soda Linux maintainance
-
- - #### People-i (2021-Mar ~ 2021-Oct)
-     - XXX-X System signal demodulation network middleware (C/C++, Boost)
-     - XXX-X System equipment status management middleware (C/C++, Boost)
-     - XXX-Y System GIS (C#/WPF, MIL-STD-XXX)
-
- - #### Spacesoft Industries (2021-Oct ~ 2021-Nov)
-
-     - XXX UAV autonomous system (C#/WPF, Arduino)
-
- - #### People-i (2022-Mar ~ 2023-Feb)
-
-     - XXX-Z System signal processing module/library (C/C++, C#/WPF)
-     - XXX-Z System scheduled task processing middleware (C/C++, Boost)
-     - XXX-A GIS System functional advancement (C/C++)
-     - XXX-B GIS module development (C/C++, C#/WPF)
-     - XXX-C massive network traffic simulator/asynchronous network communication library development (C#/WPF)
-
- - #### Bitbus (2023-Apr ~)
+ - #### Bitbus, Daejeon, South Korea – (Apr 2023 - Present)
      - Agricultural smart waterstream project (Python, C, RPi, STM32, DS3231, OpenCV)
-     - Hanwha Aerospace lowcost navigator for UAV & 6-AXIS/GNSS testing application (C, FreeRTOS, MS5611, ISM303DAC, ICM42688, IIM42652, ASM330, UBX-protocol, PX4, NuttX, UAVCAN, Avalonia)
-     - Server rack hazard detection device (ESP-IDF, FreeRTOS, C REST framework, MQTT, MCP342x, SHT3x, ICM20948, SPIFFS)
-     - Radioactivity sensing & monitoring device (ZepyhrRTOS, STM32L4, LittleFS, MQTT, Boost.Asio, Paho.MQTT)
+     - Hanwha Aerospace lowcost navigation device for UAV & 6-AXIS sensor/GNSS receiver testing application (C, FreeRTOS, MS5611, ISM303DAC, ICM42688, IIM42652, ASM330, UBX, PX4, NuttX, UAVCAN, Avalonia)
+     - Server rack emergency detection device (ESP-IDF, FreeRTOS, C REST Framework, MQTT, MCP342x, SHT3x, ICM20948, SPIFFS)
+     - Underwater radioactivity sensing & monitoring & reporting device (Zepyhr, STM32L4, LittleFS, BLE, MQTT, Boost.Asio, Paho.MQTT)
+
+ - #### People-i, Daejeoen, South Korea – (Mar 2022 - Feb 2023)
+     - Military defense System signal processing module & library (C/C++, C#/WPF)
+     - Military defense System scheduled task processing middleware (C/C++, Boost)
+     - Military GIS functional advancement (C/C++)
+     - Military GIS module development (C/C++, C#/WPF)
+     - Military Massive Mobile Network System traffic simulator & asynchronous network communication library (C#/WPF)
+
+ - #### Spacesoft Industries, Daejeon, South Korea – (Oct 2021 - Nov 2021)
+     - Hwasung UAV flight training center integrated ground control system (C#, MSSQL)
+     - Drone swarm championship preparation (QGroundControl, PX4)
+
+ - #### People-i, Daejeon, South Korea – (Mar 2021 - Oct 2021)
+     - Military system signal demodulation module (C/C++, Boost)
+     - Military system equipment status management software (C/C++, Boost)
+     - Military operation planning software (C#/WPF, MIL-STD-XXX)
+
+ - #### Hanbaek Electronics, Daejeon, South Korea – (Sep 2020 - Mar 2021)
+     - Basic IoT education kit & textbook (RPi, Python, C/C++, MicroPython, Linux)
+     - Blockchain education kit & textbook (RPi, Linux)
+     - Zigbee education kit & textbook (MycroPython, Xbee)
+     - Soda Linux maintenance & manual
+
+ - #### Elcomtech, Daejeon, South Korea – (Jan 2019 - Sep 2020)
+     - KEPCO UAV mission planning system & Telegraph pole tracking module (Python, ROS, YOLOv2, Nvidia TensorRT, PX4, OpenCV)
+     - Hanssem smart home integrated security application (Android, C/C++, TFLite, Python, Termux)
+     - Elcomtech IoT service proxy server (Express.js, Angular, MySQL, AWS EC2)
+     - Mandatory sign language broadcasting monitoring system (C/C++, MFC, YOLO V2, Tensorflow)
+     - ETRI block chain energy trading research project (Geth, Solidity)
