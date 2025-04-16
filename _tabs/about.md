@@ -89,7 +89,7 @@ Hey, I'm [Jin](https://www.linkedin.com/in/jin-jaehwan-598a50225) from Republic 
      - XXX-C massive network traffic simulator/asynchronous network communication library development (C#/WPF)
 
  - #### Bitbus (2023-Apr ~)
-     - Agricultural Smart Waterstream Project (Python, C, RPi, STM32, DS3231, OpenCV)
-     - Hanwha Aerospace lowcost navigator for UAVs and 6-AXIS/GNSS testing application (C, FreeRTOS, MS5611, ISM303DAC, ICM42688, IIM42652, ASM330, UBX-protocol, PX4, NuttX, UAVCAN, Avalonia)
-     - Server rack hazard detection machine (ESP-IDF, FreeRTOS, C REST framework, MQTT, MCP342x, SHT3x, ICM20948, SPIFFS)
-     - Radioactivity monitoring machine (ZepyhrRTOS, STM32L4, LittleFS, MQTT, Boost.Asio, Paho.MQTT)
+     - Agricultural smart waterstream project (Python, C, RPi, STM32, DS3231, OpenCV)
+     - Hanwha Aerospace lowcost navigator for UAV & 6-AXIS/GNSS testing application (C, FreeRTOS, MS5611, ISM303DAC, ICM42688, IIM42652, ASM330, UBX-protocol, PX4, NuttX, UAVCAN, Avalonia)
+     - Server rack hazard detection device (ESP-IDF, FreeRTOS, C REST framework, MQTT, MCP342x, SHT3x, ICM20948, SPIFFS)
+     - Radioactivity sensing & monitoring device (ZepyhrRTOS, STM32L4, LittleFS, MQTT, Boost.Asio, Paho.MQTT)

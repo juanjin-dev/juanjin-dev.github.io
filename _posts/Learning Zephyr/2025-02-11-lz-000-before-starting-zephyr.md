@@ -12,7 +12,7 @@ mermaid: true
 
 > Hey, I'm writing a post for the first time in here. If you see something wrong, give me feedback.
 
-> You may have different development environment. I'm using [Ubuntu 24.04](https://ubuntu.com/download/desktop), [Visual Studio Code](https://code.visualstudio.com) and [Zephyr 4.0](https://github.com/zephyrproject-rtos/zephyr/tree/v4.0-branch). In addition, I'll use [Blackpill F411CE](https://stm32-base.org/boards/STM32F411CEU6-WeAct-Black-Pill-V2.0.html) board for practice.
+> You may have different development environment. I'm using [Ubuntu 24.04](https://ubuntu.com/download/desktop), [Visual Studio Code](https://code.visualstudio.com) and [Zephyr 4.1](https://github.com/zephyrproject-rtos/zephyr/tree/v4.1-branch). In addition, I'll use [Blackpill F411CE with 25MHz crystal, 8M external flash option](https://github.com/WeActStudio/WeActStudio.MiniSTM32F4x1/blob/master/README.md) for practice.
 
 ---
 
@@ -95,7 +95,7 @@ mkdir /path/to/zephyrproject/sdk
 cd /path/to/zephyrproject/sdk
 
 # Downloading toolchains for all cpu architecture and host tools
-wget wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_linux-x86_64.tar.xz
+wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/zephyr-sdk-0.17.0_linux-x86_64.tar.xz
 wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.17.0/sha256.sum | shasum --check --ignore-missing
 
 tar -xvf zephyr-sdk-0.17.0_linux-x86_64.tar.xz
@@ -112,7 +112,7 @@ bash setup.sh -t all -h -c
 
 ```bash
 # Some libraries driving debug probes
-sudo apt install libusb-1.0-0-dev libftdi-dev libstlink-dev libjaylink-dev libgpiod-dev
+sudo apt install libtool-bin libusb-1.0-0-dev libftdi-dev libstlink-dev libjaylink-dev libgpiod-dev libhidapi-dev libcapstone-dev
 cd /path/to/install
 git clone git://git.code.sf.net/p/openocd/code openocd -b v0.12.0
 cd openocd
@@ -120,7 +120,7 @@ cd openocd
 
 # Enable all debuggers
 ./configure --prefix=/usr --enable-rshim --enable-ftdi --enable-stlink --enable-ti-icdi \
-  --enable-ulink --enable-usb-blaster-2 --enable-ft232r --enable-vsllink \ 
+  --enable-ulink --enable-usb-blaster-2 --enable-ft232r --enable-vsllink \
   --enable-xds110 --enable-cmsis-dap-v2 --enable-osbdm --enable-opendous \
   --enable-armjtagew --enable-rlink --enable-usbprog --enable-esp-usb-jtag \
   --enable-cmsis-dap --enable-nulink --enable-kitprog --enable-usb-blaster \
@@ -149,11 +149,11 @@ All done. Now we're gonna test via building and flashing a sample application.
 
 ### 2.1 Building a Sample Application
 
-You are now in the Zephyr python virtual environment, An environment variable named `$ZEPHYR_BASE` indicates where's the Zephyr kernel at. If you find it annoying to have to enter the Python virtual environment every time, set your shell alias like `alias zenv="source /path/to/zephyr-env/bin/activate"`.
+You are now in the Zephyr python virtual environment, An environment variable named `$ZEPHYR_BASE` indicates where's the Zephyr kernel at. If you find it annoying to have to enter the Python virtual environment every time, set your shell alias like `alias zenv="source /path/to/zephyr-env/bin/activate; source /path/to/zephyrproject/zephyr/zephyr-env.sh"`.
 
 Look around the Zephyr kernel directory. You see the `samples` directory? If you have problems to code applications or don't know use cases of modules, Get helped from the samples. There are several basic samples like blinking LEDs at `samples/basic`.
 
-We're now gonna build the `samples/basic/blinky` application. The official guide uses the `west build` command, but I rather prefer usnig `cmake`. Build with the following commands.
+We're now gonna build the `samples/basic/blinky` application. The official guide uses the `west build` command, but I rather prefer using `cmake`. Build with the following commands.
 
 ```
 cd $ZEPHYR_BASE

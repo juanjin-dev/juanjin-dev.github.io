@@ -1,7 +1,7 @@
 ---
 title: Look at this
 description: I just made this blog
-authors: [ jin-iot ]
+authors: [ juanjin-dev ]
 date: 2024-06-29 00:00:00 +0900
 categories: [Etc]
 tags: [ chattering ]
