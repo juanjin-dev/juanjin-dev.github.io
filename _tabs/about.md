@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
 }
 ```
 
-Hey, I'm [Jin](https://www.linkedin.com/in/jin-jaehwan-598a50225) from Republic of Korea.
+Hey, I'm Jin from Republic of Korea.
 
 ### Things I can deal with
 
