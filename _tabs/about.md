@@ -58,7 +58,7 @@ Hey, I'm Jin from Republic of Korea.
 
 ### History
 
- - #### Bitbus, Daejeon, South Korea – (Apr 2023 - Present)
+ - #### Bitbus, Daejeon, South Korea – (Apr 2023 - May 2025)
      - Agricultural smart waterstream project (Python, C, RPi, STM32, DS3231, OpenCV)
      - Hanwha Aerospace lowcost navigation device for UAV & 6-AXIS sensor/GNSS receiver testing application (C, FreeRTOS, MS5611, ISM303DAC, ICM42688, IIM42652, ASM330, UBX, PX4, NuttX, UAVCAN, Avalonia)
      - Server rack emergency detection device (ESP-IDF, FreeRTOS, C REST Framework, MQTT, MCP342x, SHT3x, ICM20948, SPIFFS)
