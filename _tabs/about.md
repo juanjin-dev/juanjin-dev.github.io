@@ -57,6 +57,7 @@ Hey, I'm Jin from Republic of Korea.
  - [Datasheets and Manuals](https://github.com/pengasper/datasheets-and-manuals) - A list of interesting datasheets and manuals.
 
 ### History
+ - #### RAKwireless, Remote, - (Aug 2025 - Present)
 
  - #### Bitbus, Daejeon, South Korea – (Apr 2023 - May 2025)
      - Agricultural smart waterstream project (Python, C, RPi, STM32, DS3231, OpenCV)
