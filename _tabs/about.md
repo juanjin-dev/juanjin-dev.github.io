@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
 }
 ```
 
-Hey, I'm Jin from Republic of Korea.
+Hey, I'm Juan Jin from Korea. Try guessing north or south.
 
 ### Things I can deal with
 
@@ -37,16 +37,16 @@ Hey, I'm Jin from Republic of Korea.
  - ~~CMake~~
 
 #### Platform/Library/Framework
- - STM32CubeMX
- - ESP-IDF
- - FreeRTOS
- - Zephyr RTOS
- - NuttX
- - Buildroot
- - Boost.Asio
- - ROS2
- - WPF
- - AvaloniaUI
+ - [STM32Cube](https://www.st.com/en/embedded-software/stm32cube-mcu-mpu-packages.html)
+ - [ESP-IDF](https://idf.espressif.com)
+ - [FreeRTOS](https://www.freertos.org)
+ - [Zephyr RTOS](https://www.zephyrproject.org)
+ - [NuttX](https://nuttx.apache.org)
+ - [Buildroot](https://buildroot.org)
+ - [Boost Libraries](https://www.boost.org)
+ - [ROS](https://www.ros.org)
+ - [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf)
+ - [AvaloniaUI](https://avaloniaui.net)
 
 ### Personal projects
  - [Black Magic](https://github.com/juanjin-dev/black_magic) - Researching C macro metaprogramming
