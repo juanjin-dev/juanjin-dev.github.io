@@ -1,6 +1,6 @@
 ---
 title: "[IoT] Guide for IoT Beginners"
-description: A brief guide for people who willing to begin IoT
+description: A brief guide for people who are willing to begin IoT
 authors: [ juanjin-dev ]
 date: 2025-10-21 00:00:00 +0900
 categories: [ IoT ]
