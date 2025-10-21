@@ -4,7 +4,7 @@ description: A brief guide for people who are willing to begin IoT
 authors: [ juanjin-dev ]
 date: 2025-10-21 00:00:00 +0900
 categories: [ IoT ]
-tags: [ IoT, Embedded Systems, Network, Topology, RTOS, Realtime Operating System, FUOTA, OTA ]
+tags: [ IoT, Embedded Systems, Network, Topology, RTOS, Realtime Operating System, FUOTA, OTA, Security ]
 pin: true
 math: true
 mermaid: true
