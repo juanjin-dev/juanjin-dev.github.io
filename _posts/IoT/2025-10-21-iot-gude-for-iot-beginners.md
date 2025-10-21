@@ -582,7 +582,7 @@ In short, IEEE 802.15.4 is the quiet backbone of many IoT systems. You may never
 
 When people say GPS, they often forget that it’s just one member of a bigger family called GNSS (Global Navigation Satellite Systems). Besides the GPS (🇺🇸), there’s also GLONASS (🇷🇺), Galileo (🇪🇺), BeiDou (🇨🇳), and regional systems like QZSS (🇯🇵) and NavIC (🇮🇳). Together, these constellations provide global coverage so that devices anywhere on Earth can figure out where they are and what time it is.
 
-In IoT, Thankfully, the GNSS is not about streaming Google Maps into your smart toilet. It plays two critical roles
+In IoT, thankfully, the GNSS is not about streaming Google Maps into your smart toilet. It plays two critical roles
  - Positioning - Tracking the location of assets, vehicles, drones, livestock, or even portable toilets at a festival ground. If it moves, GNSS can tell you where it went.
  - Timing - Providing highly accurate timestamps that keep distributed systems in sync. Many IoT gateways and base stations use GNSS not for position, but to maintain clock accuracy for network synchronization.
 
